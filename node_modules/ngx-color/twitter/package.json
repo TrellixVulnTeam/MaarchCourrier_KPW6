@@ -1,0 +1,19 @@
+{
+  "name": "ngx-color/twitter",
+  "author": "scttcper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scttcper/ngx-color.git"
+  },
+  "main": "bundles/ngx-color-twitter.umd.js",
+  "module": "fesm2015/ngx-color-twitter.js",
+  "es2015": "fesm2015/ngx-color-twitter.js",
+  "esm2015": "esm2015/ngx-color-twitter.js",
+  "fesm2015": "fesm2015/ngx-color-twitter.js",
+  "typings": "ngx-color-twitter.d.ts",
+  "metadata": "ngx-color-twitter.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

@@ -43,7 +43,7 @@
 
     ::ng-deep.mat-form-field-flex {
         background: white;
-        border-radius: 30px;
+        border-radius: 10px;
     }
 
     ::ng-deep.mat-form-field-label-wrapper {
@@ -59,7 +59,7 @@
         position: absolute;
         top: -32px;
         left: -47px;
-        border-radius: 30px;
+        border-radius: 10px;
 
     }
 
@@ -82,11 +82,11 @@
 
     ::ng-deep .mat-expansion-panel-content {
         background: white;
-        border-radius: 30px;
+        border-radius: 10px;
     }
 
     ::ng-deep .mat-expansion-panel-body {
-        padding-top: 5px;
+        padding-top: 15px;
     }
 
     ::ng-deep .mat-expansion-indicator::after {
@@ -106,7 +106,8 @@
     }
 
     ::ng-deep .mat-expansion-panel-body {
-        padding-top: 5px;
+        padding-top: 15px;
+
     }
 
     ::ng-deep .mat-expansion-indicator::after {
@@ -162,7 +163,7 @@
     display: flex;
     padding-left: 20px;
     align-items: center;
-    color: #135f7f;
+    color: #56a893;
     font-weight: bold;
 }
 
@@ -216,6 +217,6 @@
 
 .addCriteriaButton {
     border-radius: 20px;
-    border-color: #135F7F;
-    color: #135F7F;
+    border-color: #56a893;
+    color: #56a893;
 }

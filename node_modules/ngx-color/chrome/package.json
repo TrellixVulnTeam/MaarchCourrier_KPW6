@@ -1,0 +1,20 @@
+{
+  "name": "ngx-color/chrome",
+  "author": "scttcper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scttcper/ngx-color.git"
+  },
+  "license": "MIT",
+  "main": "bundles/ngx-color-chrome.umd.js",
+  "module": "fesm2015/ngx-color-chrome.js",
+  "es2015": "fesm2015/ngx-color-chrome.js",
+  "esm2015": "esm2015/ngx-color-chrome.js",
+  "fesm2015": "fesm2015/ngx-color-chrome.js",
+  "typings": "ngx-color-chrome.d.ts",
+  "metadata": "ngx-color-chrome.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

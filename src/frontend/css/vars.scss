@@ -1,8 +1,8 @@
 $default: #4F4F4F; // default color in application
-$primary: #135f7f; // main color theme of application
+$primary: #56a893; // main color theme of application
 $secondary: #f99830; // main color theme of application
 $success: #006841; // accent color theme of application (like success buttons)
-$danger: #8e3e52; // warning color theme of application
+$danger: #ca4d4d; // warning color theme of application
 
 $primary-light: lighten($primary, 10%);
 $primary-dark: darken($primary, 10%);

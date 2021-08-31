@@ -1,0 +1,19 @@
+{
+  "name": "ngx-color/material",
+  "author": "scttcper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scttcper/ngx-color.git"
+  },
+  "main": "bundles/ngx-color-material.umd.js",
+  "module": "fesm2015/ngx-color-material.js",
+  "es2015": "fesm2015/ngx-color-material.js",
+  "esm2015": "esm2015/ngx-color-material.js",
+  "fesm2015": "fesm2015/ngx-color-material.js",
+  "typings": "ngx-color-material.d.ts",
+  "metadata": "ngx-color-material.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

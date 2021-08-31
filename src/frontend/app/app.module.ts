@@ -166,7 +166,6 @@ export class MyHammerConfig extends HammerGestureConfig {
         BrowserAnimationsModule,
         HttpClientModule,
         InternationalizationModule,
-        AngularDraggableModule,
         JoyrideModule.forRoot(),
         SharedModule,
         AppRoutingModule,
@@ -362,6 +361,7 @@ export class MyHammerConfig extends HammerGestureConfig {
         ActionsService,
         PrivilegeService,
         ActionPagesService,
+        AngularDraggableModule,
         {
             provide: HAMMER_GESTURE_CONFIG,
             useClass: MyHammerConfig

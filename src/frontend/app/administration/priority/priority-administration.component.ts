@@ -17,7 +17,7 @@ export class PriorityAdministrationComponent implements OnInit {
     loading: boolean = false;
 
     priority: any = {
-        color: '#135f7f',
+        color: '#56a893',
         delays: '0',
     };
 

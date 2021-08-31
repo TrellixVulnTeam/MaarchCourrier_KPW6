@@ -1,14 +1,14 @@
 <div class="login-container">
     <div class="login-content" [class.showForm]="showForm" [style.background-image]="'url(../rest/images?image=loginPage)'">
-        <div class="login-form">
+        <div class="login-form" style="border: 2px solid #55a892;border-radius: 15px; background: white; padding: 35px;">
             <form (ngSubmit)="onSubmit()" [formGroup]="loginForm">
                 <mat-icon svgIcon="maarchLogoFull" class="maarchLogo"></mat-icon>
                 <div style="color: white;font-size: 14px;" [innerHTML]="authService.loginMessage | safeHtml"></div>
                 <p style="color: white;font-size: 14px;font-weight: bold;">{{authService.applicationName}}</p>
                 <div style="padding-left: 30px;padding-right: 30px;">
-                    <mat-form-field *ngIf="['cas', 'keycloak', 'sso', 'azure_saml'].indexOf(authService.authMode) === -1" class="input-row login" appearance="outline" style="padding-bottom: 0px;">
+                    <mat-form-field *ngIf="['cas', 'keycloak', 'sso', 'azure_saml'].indexOf(authService.authMode) === -1" class="input-row login" appearance="outline">
                         <input id="login" name="login" matInput [placeholder]="'lang.id' | translate" formControlName="login"
-                            type="text">
+                            type="text" style="margin:0;">
                     </mat-form-field>
                     <mat-form-field *ngIf="['cas', 'keycloak', 'sso', 'azure_saml'].indexOf(authService.authMode) === -1" class="input-row" appearance="outline">
                         <input id="password" name="password" matInput [placeholder]="'lang.password' | translate" type="password"
@@ -23,7 +23,7 @@
                     {{'lang.' + authService.authMode + 'Enabled' | translate}}
                 </div>
                 <button id="submit" type="submit" mat-stroked-button [disabled]="loginForm.invalid || loading"
-                    style="color: white;border-color: #24b0ed;background: #24b0ed;">{{'lang.LOGIN' | translate}}</button>
+                    style="color: white;border-color: #24b0ed;background: #55a892;">{{'lang.LOGIN' | translate}}</button>
             </form>
         </div>
         <footer style="padding: 8px; backdrop-filter: blur(8px)">

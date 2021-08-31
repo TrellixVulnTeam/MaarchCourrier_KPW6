@@ -47,7 +47,7 @@ export class CustomizationComponent implements OnInit {
             customId: [null, valIdentifier],
             appName: [`Maarch Courrier ${environment.VERSION.split('.')[0] + '.' + environment.VERSION.split('.')[1]}`, Validators.required],
             loginMessage: [`<span style="color:#24b0ed"><strong>Découvrez votre application via</strong></span>&nbsp;<a title="le guide de visite" href="https://docs.maarch.org/gitbook/html/MaarchCourrier/${environment.VERSION.split('.')[0] + '.' + environment.VERSION.split('.')[1]}/guu/home.html" target="_blank"><span style="color:#f99830;"><strong>le guide de visite en ligne</strong></span></a>`],
-            homeMessage: ['<p>D&eacute;couvrez <strong>Maarch Courrier 21.03</strong> avec <a title="notre guide de visite" href="https://docs.maarch.org/" target="_blank"><span style="color:#f99830;"><strong>notre guide de visite en ligne</strong></span></a>.</p>'],
+            homeMessage: ['<p>D&eacute;couvrez <span style="color:black;"><strong>enmo content manager</strong></span> avec <a title="notre guide de visite" href="https://docs.maarch.org/" target="_blank"><span style="color:#f99830;"><strong>notre guide de visite en ligne</strong></span></a>.</p>'],
             bodyLoginBackground: ['assets/bodylogin.jpg'],
             uploadedLogo: ['../rest/images?image=logo'],
         });

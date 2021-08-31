@@ -1,0 +1,20 @@
+{
+  "name": "ngx-color/compact",
+  "author": "scttcper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scttcper/ngx-color.git"
+  },
+  "license": "MIT",
+  "main": "bundles/ngx-color-compact.umd.js",
+  "module": "fesm2015/ngx-color-compact.js",
+  "es2015": "fesm2015/ngx-color-compact.js",
+  "esm2015": "esm2015/ngx-color-compact.js",
+  "fesm2015": "fesm2015/ngx-color-compact.js",
+  "typings": "ngx-color-compact.d.ts",
+  "metadata": "ngx-color-compact.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ngx-color/slider",
+  "author": "scttcper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scttcper/ngx-color.git"
+  },
+  "main": "bundles/ngx-color-slider.umd.js",
+  "module": "fesm2015/ngx-color-slider.js",
+  "es2015": "fesm2015/ngx-color-slider.js",
+  "esm2015": "esm2015/ngx-color-slider.js",
+  "fesm2015": "fesm2015/ngx-color-slider.js",
+  "typings": "ngx-color-slider.d.ts",
+  "metadata": "ngx-color-slider.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

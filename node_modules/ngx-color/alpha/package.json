@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../../node_modules/ng-packagr/package.schema.json",
+  "name": "ngx-color/alpha",
+  "author": "scttcper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scttcper/ngx-color.git"
+  },
+  "license": "MIT",
+  "main": "bundles/ngx-color-alpha.umd.js",
+  "module": "fesm2015/ngx-color-alpha.js",
+  "es2015": "fesm2015/ngx-color-alpha.js",
+  "esm2015": "esm2015/ngx-color-alpha.js",
+  "fesm2015": "fesm2015/ngx-color-alpha.js",
+  "typings": "ngx-color-alpha.d.ts",
+  "metadata": "ngx-color-alpha.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

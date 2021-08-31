@@ -4,7 +4,7 @@
     <div class="button-row" style="padding-left: 10px;padding-right: 10px;display: flex;width: 300px;margin-top: -10px;margin-bottom: 10px;">
         <ng-container *ngFor="let shortcut of privilegeService.shortcuts">
             <span style="flex:1;text-align: left;padding: 5px;" *ngIf="(shortcut.id == 'indexing' && shortcut.groups.length<=1) || (shortcut.id != 'indexing')">
-                <button [id]="shortcut.id" class="followedShortcut" style="z-index: 9999;" color="default" mat-fab (click)="gotToMenu(shortcut);" matTooltip="{{shortcut.label | translate}}"
+                <button [id]="shortcut.id" class="followedShortcut" style="z-index: 9999; box-shadow: none; border-radius: 15px;" color="default" mat-fab (click)="gotToMenu(shortcut);" matTooltip="{{shortcut.label | translate}}"
                     matTooltipPosition="above">
                     <mat-icon class="fa {{shortcut.style}}" style="height:auto;font-size:22px;"
                               matBadge="{{headerService.nbResourcesFollowed}}" matBadgeHidden="{{shortcut.id != 'followed'}}"

@@ -1,0 +1,20 @@
+{
+  "name": "ngx-color/block",
+  "author": "scttcper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scttcper/ngx-color.git"
+  },
+  "license": "MIT",
+  "main": "bundles/ngx-color-block.umd.js",
+  "module": "fesm2015/ngx-color-block.js",
+  "es2015": "fesm2015/ngx-color-block.js",
+  "esm2015": "esm2015/ngx-color-block.js",
+  "fesm2015": "fesm2015/ngx-color-block.js",
+  "typings": "ngx-color-block.d.ts",
+  "metadata": "ngx-color-block.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
