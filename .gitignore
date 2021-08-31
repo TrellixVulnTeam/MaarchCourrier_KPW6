@@ -15,3 +15,6 @@ modules/content_management/dist/lib/httpclient-cache-4.5.2.jar
 modules/content_management/dist/lib/httpclient-win-4.5.2.jar
 modules/content_management/dist/lib/httpcore-4.4.4.jar
 modules/content_management/dist/lib/plugin.jar
+
+
+node_modules
