@@ -1,14 +1,14 @@
 :root {
   --maarch-color-default: #4F4F4F;
-  --maarch-color-primary: #56a893;
-  --maarch-color-primary-opacity-10: rgba(86, 168, 147, 0.1);
-  --maarch-color-primary-opacity-20: rgba(86, 168, 147, 0.2);
-  --maarch-color-primary-opacity-30: rgba(86, 168, 147, 0.3);
-  --maarch-color-primary-opacity-40: rgba(86, 168, 147, 0.4);
-  --maarch-color-primary-opacity-50: rgba(86, 168, 147, 0.5);
-  --maarch-color-primary-opacity-60: rgba(86, 168, 147, 0.6);
-  --maarch-color-primary-light: #77baa9;
-  --maarch-color-primary-dark: #458675;
+  --maarch-color-primary: #280d43;
+  --maarch-color-primary-opacity-10: rgba(40, 13, 67, 0.1);
+  --maarch-color-primary-opacity-20: rgba(40, 13, 67, 0.2);
+  --maarch-color-primary-opacity-30: rgba(40, 13, 67, 0.3);
+  --maarch-color-primary-opacity-40: rgba(40, 13, 67, 0.4);
+  --maarch-color-primary-opacity-50: rgba(40, 13, 67, 0.5);
+  --maarch-color-primary-opacity-60: rgba(40, 13, 67, 0.6);
+  --maarch-color-primary-light: #42156e;
+  --maarch-color-primary-dark: #0f0518;
   --maarch-color-secondary: #f99830;
   --maarch-color-secondary-opacity-10: rgba(249, 152, 48, 0.1);
   --maarch-color-secondary-opacity-20: rgba(249, 152, 48, 0.2);
@@ -35,7 +35,7 @@
   --maarch-color-danger-opacity-50: rgba(202, 77, 77, 0.5);
   --maarch-color-danger-opacity-60: rgba(202, 77, 77, 0.6);
   --maarch-color-danger-light: #d67474;
-  --maarch-color-danger-dark: #b03434;
+  --maarch-color-danger-dark: #ffdddd;
 }
 
 [color=primary],
@@ -4341,7 +4341,7 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
   color: var(--maarch-color-success-dark);
 }
 .alert-message-danger {
-  background-color: #8e3e52;
+  background-color: #ff4249;
   border-color: var(--maarch-color-danger);
   color: var(--maarch-color-danger-dark);
 }
@@ -4455,7 +4455,7 @@ table tr:not(.filters) .mat-form-field {
   overflow-y: auto;
 }
 .modal-body .list-group li {
-  /*border-color: #56a893 !important;*/
+  /*border-color: #280d43 !important;*/
   font-weight: bold;
 }
 .mat-autocomplete-panel .mat-option {
@@ -4552,7 +4552,7 @@ table tr:not(.filters) .mat-form-field {
   position: relative !important;
 }
 .headerMaarch.mat-menu-panel {
-  background: #56a893 !important;
+  background: #280d43 !important;
 }
 .headerMaarchShortcut.mat-menu-panel {
   max-width: 400px;
@@ -4644,7 +4644,7 @@ body {
   flex-direction: column;
 }
 .bg-head {
-  background: #56a893;
+  background: #280d43;
   color: white;
 }
 .bg-head-title {

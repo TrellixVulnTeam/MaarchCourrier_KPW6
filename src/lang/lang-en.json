@@ -2484,5 +2484,10 @@
     "clientSecret": "Client Secret",
     "siteUrl": "Sharepoint Online site URL",
     "office365sharepointDesc": "<a href=\"https://www.office.com/\" target=\"_blank\"> Office 365 </a> is the online office suite from Microsoft. The editing is done via Sharepoint Online.",
-    "contactsParameters_sector": "Sector"
+    "contactsParameters_sector": "Sector",
+    "infoResId": "Vous pouvez remplir automatiquement ce champ en utilisant le mot-clé <b>@resId</b> pour cibler une ressource du document en cours de traitement__TO_TRANSLATE",
+    "expAddress": "Adresse expéditrice__TO_TRANSLATE",
+    "manual": "Manuelle__TO_TRANSLATE",
+    "mailServer": "Serveur de messagerie__TO_TRANSLATE",
+    "canAddCopies": "Pouvoir ajouter des personnes en copie (CC / CCI)__TO_TRANSLATE"
 }

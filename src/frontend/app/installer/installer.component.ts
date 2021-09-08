@@ -63,7 +63,7 @@ export class InstallerComponent implements OnInit, AfterViewInit {
     ngAfterViewInit(): void {
         $('.mat-horizontal-stepper-header-container').insertBefore('.bg-head-content');
         $('.mat-step-icon').css('background-color', 'white');
-        $('.mat-step-icon').css('color', '#56a893');
+        $('.mat-step-icon').css('color', '#280d43');
         $('.mat-step-label').css('color', 'white');
         /* $('.mat-step-label').css('opacity', '0.5');
         $('.mat-step-label-active').css('opacity', '1');*/

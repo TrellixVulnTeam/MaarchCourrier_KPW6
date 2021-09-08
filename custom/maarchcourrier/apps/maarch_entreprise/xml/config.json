@@ -1,13 +1,13 @@
 {
     "config": {
         "lang": "fr",
-        "applicationName": "Maarch Courrier 21.03",
+        "applicationName": "enmo.cm ",
         "cookieTime": 10080,
-        "timezone": "Europe\/Paris",
-        "maarchDirectory": "\/var\/www\/html\/MaarchCourrier\/",
+        "timezone": "Europe/Paris",
+        "maarchDirectory": "/var/www/html/MaarchCourrier/",
         "customID": "maarchcourrier",
         "maarchUrl": "",
-        "lockAdvancedPrivileges": true
+        "lockAdvancedPrivileges": false
     },
     "database": [
         {
@@ -30,8 +30,8 @@
     },
     "exportSeda": {
         "sae": "MaarchRM",
-        "token": "phdF9WkJuTKkDuPXoqDZuCFEQT7En7YqsVROsdD1HoNZV7jD5+XyCtKbhx0Chb4s3skokalo0wEn48DE3M4kGrAceH0\/XFbyLZVRoVOO+Y\/wxyRdE1QJleI8yijEfGut",
-        "urlSAEService": "https:\/\/demo-ap.maarchrm.com",
+        "token": "phdF9WkJuTKkDuPXoqDZuCFEQT7En7YqsVROsdD1HoNZV7jD5+XyCtKbhx0Chb4s3skokalo0wEn48DE3M4kGrAceH0/XFbyLZVRoVOO+Y/wxyRdE1QJleI8yijEfGut",
+        "urlSAEService": "https://demo-ap.maarchrm.com",
         "senderOrgRegNumber": "org_987654321_DGS_SA",
         "accessRuleCode": "AR039",
         "certificateSSL": "",
