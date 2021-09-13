@@ -237,16 +237,6 @@ export class PrivilegeService {
             'hasParams': false
         },
         {
-            'id': 'admin_shippings',
-            'label': 'lang.mailevaAdmin',
-            'comment': 'lang.mailevaAdminDesc',
-            'route': '/administration/shippings',
-            'unit': 'supervision',
-            'style': 'fa fa-shipping-fast',
-            'angular': true,
-            'hasParams': false
-        },
-        {
             'id': 'view_history',
             'label': 'lang.history',
             'comment': 'lang.viewHistoryDesc',

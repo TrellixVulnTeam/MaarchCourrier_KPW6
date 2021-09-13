@@ -35,7 +35,7 @@
   --maarch-color-danger-opacity-50: rgba(202, 77, 77, 0.5);
   --maarch-color-danger-opacity-60: rgba(202, 77, 77, 0.6);
   --maarch-color-danger-light: #d67474;
-  --maarch-color-danger-dark: #ffdddd;
+  --maarch-color-danger-dark: black;
 }
 
 [color=primary],

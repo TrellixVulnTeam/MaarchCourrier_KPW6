@@ -38,7 +38,7 @@ $danger-opacity-40: rgba($danger, 0.4);
 $danger-opacity-50: rgba($danger, 0.5);
 $danger-opacity-60: rgba($danger, 0.6);
 $danger-light: lighten($danger, 10%);
-$danger-dark: darken($danger, 10%);
+$danger-dark: darken($danger, 100%);
 
 :root {
     --maarch-color-default: #{$default};
