@@ -59,7 +59,7 @@
         "chillerlan/php-qrcode": "2.0.6",
         "endroid/qr-code": "^2.5",
         "tinybutstrong/tinybutstrong": "3.11",
-        "tinybutstrong/opentbs": "1.9",
+        "tinybutstrong/opentbs": "^1.10",
         "tecnickcom/tc-lib-barcode": "^1.15",
         "firebase/php-jwt": "^5.0",
         "rafikhaceb/pi-barcode": "^1.0",
