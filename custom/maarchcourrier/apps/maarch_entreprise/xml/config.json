@@ -4,7 +4,7 @@
         "applicationName": "enmo.cm ",
         "cookieTime": 10080,
         "timezone": "Europe/Paris",
-        "maarchDirectory": "/app/enmo-cm/",
+        "maarchDirectory": "/",
         "customID": "maarchcourrier",
         "maarchUrl": "",
         "lockAdvancedPrivileges": false
