@@ -1,1 +1,1 @@
-web: heroku-php-apache2 dist/
+web: heroku-php-apache2

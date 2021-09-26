@@ -1,3 +1,3 @@
 <script>
-    window.location.href = 'dist/index.html';
+    window.location.href = 'maarchcourrier/dist/index.html';
 </script>
