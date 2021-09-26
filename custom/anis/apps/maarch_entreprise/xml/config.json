@@ -7,7 +7,7 @@
         "maarchDirectory": "\/var\/www\/html\/MaarchCourrier\/",
         "customID": "anis",
         "maarchUrl": "",
-        "lockAdvancedPrivileges": true
+        "lockAdvancedPrivileges": false
     },
     "database": [
         {
