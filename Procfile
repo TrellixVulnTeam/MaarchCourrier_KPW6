@@ -1,1 +1,1 @@
-web: heroku-php-apache2 maarchcourrier/dist
+web: heroku-php-apache2 dist/
