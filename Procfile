@@ -1,1 +1,1 @@
-web: heroku-php-apache2 -C apache_app.conf maarchcourrier/dist/
+web: heroku-php-apache2 -C apache_app.conf dist/
