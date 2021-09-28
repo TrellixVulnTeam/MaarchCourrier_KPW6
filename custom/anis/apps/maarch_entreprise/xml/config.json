@@ -14,7 +14,7 @@
             "server": "localhost",
             "port": "5432",
             "type": "POSTGRESQL",
-            "name": "anis",
+            "name": "maarchcourrier",
             "user": "maarch",
             "password": "maarch"
         }

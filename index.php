@@ -1,3 +1,3 @@
 <script>
-    window.location.href = 'maarchcourrier/dist/index.html';
+    window.location.href = 'dist/index.html/install';
 </script>

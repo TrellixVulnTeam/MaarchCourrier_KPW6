@@ -4,19 +4,19 @@
         "applicationName": "enmo.cm ",
         "cookieTime": 10080,
         "timezone": "Europe/Paris",
-        "maarchDirectory": "/",
+        "maarchDirectory": "\/var\/www\/html\/MaarchCourrier\/",
         "customID": "maarchcourrier",
         "maarchUrl": "",
         "lockAdvancedPrivileges": false
     },
     "database": [
         {
-            "server": "ec2-54-154-101-45.eu-west-1.compute.amazonaws.com",
+            "server": "localhost",
             "port": "5432",
             "type": "POSTGRESQL",
-            "name": "d7835t9cp2k79a",
-            "user": "wsbiypkerjqpai",
-            "password": "7d0b843eb815b2df3c9da7704afe6825c58880fe6d68469dc13e6141770c7a83"
+            "name": "maarchcourrier",
+            "user": "maarch",
+            "password": "maarch"
         }
     ],
     "signatureBook": {

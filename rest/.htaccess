@@ -1,29 +1,8 @@
-
-		<FilesMatch ".*">
-            Order deny,allow
-            Deny from all
-        </FilesMatch>
-        # Root to allow index.php
-        <FilesMatch "^$">
-            Order allow,deny
-            Allow from all
-        </FilesMatch>
-        # Core root
-        <FilesMatch "^(index|static|log)\.php$">
-            Order allow,deny
-            Allow from all
-        </FilesMatch>
-        # App static files
-        <FilesMatch "\.(css|js|jpg|jpeg|png|gif|ttf|woff|woff2|svg|ico)$">
-            Order allow,deny
-            Allow from all
-        </FilesMatch>
-        # App tools files
-        <FilesMatch "\.(htm|html|jar|jnlp)$">
-            Order allow,deny
-            Allow from all
-        </FilesMatch>
-
+<FilesMatch ".*">
+        Order allow,deny
+        Allow from all
+</FilesMatch>
+        
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
